@@ -11,14 +11,22 @@ nav{
 }
 .nav-list{
     padding: 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600px;
-}
-.nav-link:hover{
   
 }
+.nav-list:hover{
+color: grey;
+}
+
+.zzz{
+    color: white;
+}
+.zzz:hover{
+    color: grey;
+}
 .offcanvas{
-    color: black;
+    color:black;
 }
 .zudio{
     font-size: 45px;
@@ -52,7 +60,7 @@ nav{
 }
 
 @media(max-width:700px){
-    .nav-link {color: black;
+    .zzz {color: black;
        
     }
     .home{
