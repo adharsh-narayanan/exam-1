@@ -48,8 +48,13 @@ nav{
     font-size: 18px;
 }
 
-@media(min-width:700px){
-    nav{
-        color: black;
+@media(max-width:700px){
+    .nav-link {color: black;
+       
+    }
+    .home{
+        background-image: url(./exam/small.webp);
+        background-size: 100%;
+    background-repeat: no-repeat;
     }
 }
