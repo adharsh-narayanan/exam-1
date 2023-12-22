@@ -1,0 +1,55 @@
+*{
+    font-family: 'Didact Gothic', sans-serif;
+    
+}
+nav{
+    color: white;
+    background-color: black;
+}
+.navbar-nav{
+    justify-content: end;
+}
+.nav-list{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600px;
+}
+.offcanvas{
+    color: black;
+}
+.zudio{
+    font-size: 45px;
+    font-weight: 800px;
+    font-family: 'Audiowide', sans-serif;
+}
+.home{
+    background-image:url(./exam/MASTHEAD-1_d291d857-8b53-4ada-8c76-e5e504fa9d56.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 78vh;
+}
+.list-items{
+    color: yellow;
+    font-size: 20px;
+    list-style: none;
+    padding: 10px;
+}
+.list-items:hover{
+    color: grey;
+}
+.footer{
+    background-color: black;
+    color: white;
+   
+   
+}
+.copyright{
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media(min-width:700px){
+    nav{
+        color: black;
+    }
+}
